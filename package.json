@@ -1,0 +1,1 @@
+{"name":"tc-starter-studio","version":"2.0.0","private":true,"scripts":{"test":"python3 -m unittest test_scaffold.py && node --test test.cjs","build":"node build.cjs"}}
