@@ -1,0 +1,5 @@
+{
+  "index.html": "<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>PROJECT_NAME</title>\n<link rel=\"stylesheet\" href=\"css/style.css\">\n</head>\n<body>\n<main><h1>PROJECT_NAME</h1><p>Your next website starts here.</p><button id=\"hello\" type=\"button\">Say hello</button><p id=\"message\" role=\"status\"></p></main>\n<script src=\"js/main.js\"></script>\n</body>\n</html>\n",
+  "css/style.css": "*{box-sizing:border-box}body{margin:0;font:16px/1.6 system-ui;background:#111113;color:#f4f4f5}main{max-width:680px;margin:12vh auto;padding:24px}button{border:1px solid #3f3f46;border-radius:999px;padding:12px 20px;background:#f4f4f5;color:#18181b;cursor:pointer}button:focus-visible{outline:2px solid #a1a1aa;outline-offset:4px}\n",
+  "js/main.js": "document.getElementById(\"hello\").addEventListener(\"click\",()=>{document.getElementById(\"message\").textContent=\"Hello, world!\";});\n"
+}
